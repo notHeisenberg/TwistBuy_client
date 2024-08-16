@@ -5,8 +5,8 @@ import { AuthContext } from "@/components/Provider/AuthProvider";
 
 const axiosSecure = axios.create({
     baseURL:
-        "http://localhost:3000"
-        // "https://twist-buy-server.vercel.app"
+
+        "https://twist-buy-server.vercel.app"
 })
 const useAxiosSecure = () => {
     const navigate = useNavigate();

@@ -3,6 +3,7 @@ import ProductCard from './ProductCard';
 import SearchBar from './SearchBar';
 import FilterPanel from './FilterPanel';
 import axiosPublic from '../../Utilities/useAxiosPublic';
+import Pagination from './Pagination';
 
 const ContentArea = () => {
     const [products, setProducts] = useState([]);
@@ -12,11 +13,18 @@ const ContentArea = () => {
     const [sortOption, setSortOption] = useState('');
     const [loading, setLoading] = useState(false);
     const [error, setError] = useState(null);
+    const [cart, setCart] = useState([]);
 
     // Pagination state
     const [currentPage, setCurrentPage] = useState(1);
     const [totalPages, setTotalPages] = useState(1);
     const productsPerPage = 10;
+
+    useEffect(() => {
+        // Initialize cart from localStorage
+        const savedCart = JSON.parse(localStorage.getItem('cart')) || [];
+        setCart(savedCart);
+    }, []);
 
 
     useEffect(() => {
@@ -24,11 +32,19 @@ const ContentArea = () => {
             setLoading(true);
             try {
                 const response = await axiosPublic.get('/products', {
-                    params: { page: currentPage, limit: productsPerPage }
+                    params: {
+                        page: currentPage,
+                        limit: productsPerPage,
+                        search: searchQuery || '',
+                        category: filters.category || '',
+                        brand: filters.brand || '',
+                        minPrice: filters.priceRange ? filters.priceRange[0] : '',
+                        maxPrice: filters.priceRange ? filters.priceRange[1] : '',
+                    }
                 });
 
                 setProducts(response.data.products);
-                setFilteredProducts(response.data.products); // Set initial filtered products
+                setFilteredProducts(response.data.products);
                 setTotalPages(response.data.totalPages);
             } catch (error) {
                 setError(error);
@@ -38,7 +54,8 @@ const ContentArea = () => {
         };
 
         fetchProducts();
-    }, [currentPage]);
+    }, [currentPage, searchQuery, filters]);
+
 
     useEffect(() => {
         const filterAndSortProducts = () => {
@@ -95,6 +112,23 @@ const ContentArea = () => {
             setCurrentPage(page);
         }
     };
+    const handleAddToCart = (product) => {
+        setCart(prevCart => {
+            const isItemInCart = prevCart.some(item => item._id === product._id);
+
+            if (isItemInCart) {
+                // Remove item from cart
+                const updatedCart = prevCart.filter(item => item._id !== product._id);
+                localStorage.setItem('cart', JSON.stringify(updatedCart));
+                return updatedCart;
+            } else {
+                // Add item to cart
+                const updatedCart = [...prevCart, product];
+                localStorage.setItem('cart', JSON.stringify(updatedCart));
+                return updatedCart;
+            }
+        });
+    };
 
     return (
         <div className="content-area mt-5 container mx-auto">
@@ -121,34 +155,19 @@ const ContentArea = () => {
                         <div>
                             <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(200px, 1fr))', gap: '20px' }}>
                                 {filteredProducts.map((product) => (
-                                    <ProductCard key={product._id} product={product} />
+                                    <ProductCard
+                                        key={product._id}
+                                        product={product}
+                                        onAddToCart={handleAddToCart}
+                                        isInCart={cart.some(item => item._id === product._id)}
+                                    />
                                 ))}
                             </div>
-                            <div className="pagination mt-4 flex justify-center items-center gap-2">
-                                <button
-                                    onClick={() => handlePageChange(currentPage - 1)}
-                                    disabled={currentPage === 1}
-                                    className="p-2 border rounded-lg"
-                                >
-                                    Previous
-                                </button>
-                                {[...Array(totalPages).keys()].map((page) => (
-                                    <button
-                                        key={page + 1}
-                                        onClick={() => handlePageChange(page + 1)}
-                                        className={`p-2 border rounded-lg ${currentPage === page + 1 ? 'bg-blue-500 text-white' : ''}`}
-                                    >
-                                        {page + 1}
-                                    </button>
-                                ))}
-                                <button
-                                    onClick={() => handlePageChange(currentPage + 1)}
-                                    disabled={currentPage === totalPages}
-                                    className="p-2 border rounded-lg"
-                                >
-                                    Next
-                                </button>
-                            </div>
+                            <Pagination
+                                currentPage={currentPage}
+                                totalPages={totalPages}
+                                handlePageChange={handlePageChange}
+                            />
                         </div>
                     )}
                 </main>
