@@ -1,7 +1,7 @@
 [
     {
         "name": "Leather Wallet",
-        "image": "https://example.com/images/leather-wallet.jpg",
+        "image": "https://i.ibb.co/b2wqRSX/4099-11.jpg",
         "description": "Premium quality leather wallet with multiple card slots.",
         "price": 25.99,
         "category": "Wallets",
@@ -11,7 +11,7 @@
     },
     {
         "name": "Aviator Sunglasses",
-        "image": "https://example.com/images/aviator-sunglasses.jpg",
+        "image": "https://i.ibb.co/J5m4MCJ/s-l1200.jpg",
         "description": "Stylish aviator sunglasses with UV protection.",
         "price": 79.99,
         "category": "Sunglasses",
@@ -21,7 +21,7 @@
     },
     {
         "name": "Gold-Plated Necklace",
-        "image": "https://example.com/images/gold-necklace.jpg",
+        "image": "https://i.ibb.co/5j0WtVY/BDJ322-600x600.jpg",
         "description": "Elegant gold-plated necklace with intricate design.",
         "price": 129.99,
         "category": "Jewelry",
@@ -31,7 +31,7 @@
     },
     {
         "name": "Smart Watch",
-        "image": "https://example.com/images/smart-watch.jpg",
+        "image": "https://i.ibb.co/X8bbxnF/61-GRy-zy-B-L-AC-UF1000-1000-QL80.jpg",
         "description": "Feature-rich smart watch with heart rate monitor.",
         "price": 199.99,
         "category": "Watches",
@@ -41,7 +41,7 @@
     },
     {
         "name": "Leather Belt",
-        "image": "https://example.com/images/leather-belt.jpg",
+        "image": "https://i.ibb.co/ZY0GW8r/64eeed1a596b0450b3598c7c-chaoren-leather-reversible-belts-for-men.jpg",
         "description": "Durable leather belt with a sleek buckle design.",
         "price": 34.99,
         "category": "Belts",
@@ -51,7 +51,7 @@
     },
     {
         "name": "Canvas Tote Bag",
-        "image": "https://example.com/images/canvas-tote-bag.jpg",
+        "image": "https://i.ibb.co/ByDvtdM/71-L-J4-KU2e-L-AC-SL1500.jpg",
         "description": "Spacious canvas tote bag, perfect for everyday use.",
         "price": 29.99,
         "category": "Bags",
@@ -61,7 +61,7 @@
     },
     {
         "name": "Silver Bracelet",
-        "image": "https://example.com/images/silver-bracelet.jpg",
+        "image": "https://i.ibb.co/9HBC53C/Screenshot-2022-03-20-22-13-18-69-1c337646f29875672b5a61192b9010f9.jpg",
         "description": "Delicate silver bracelet with a minimalist design.",
         "price": 59.99,
         "category": "Jewelry",
@@ -71,7 +71,7 @@
     },
     {
         "name": "Men's Chronograph Watch",
-        "image": "https://example.com/images/chronograph-watch.jpg",
+        "image": "https://i.ibb.co/YZ9cNdV/9-5-800x800.jpg",
         "description": "High-precision chronograph watch with a leather strap.",
         "price": 249.99,
         "category": "Watches",
@@ -81,7 +81,7 @@
     },
     {
         "name": "Polarized Sunglasses",
-        "image": "https://example.com/images/polarized-sunglasses.jpg",
+        "image": "https://i.ibb.co/zSSStTg/image.webp",
         "description": "Polarized sunglasses offering superior clarity and protection.",
         "price": 89.99,
         "category": "Sunglasses",
@@ -91,7 +91,7 @@
     },
     {
         "name": "Luxury Handbag",
-        "image": "https://example.com/images/luxury-handbag.jpg",
+        "image": "https://i.ibb.co/474S8Gt/IMG-4602.jpg",
         "description": "Designer luxury handbag crafted from high-quality materials.",
         "price": 349.99,
         "category": "Bags",
@@ -101,7 +101,7 @@
     },
     {
         "name": "Gold Earrings",
-        "image": "https://example.com/images/gold-earrings.jpg",
+        "image": "https://i.ibb.co/p383C8R/Lakshmi-Design-Gold-Earrings.jpg",
         "description": "Stunning gold earrings with a sparkling gemstone.",
         "price": 99.99,
         "category": "Jewelry",
@@ -111,7 +111,7 @@
     },
     {
         "name": "Classic Leather Watch",
-        "image": "https://example.com/images/classic-leather-watch.jpg",
+        "image": "https://i.ibb.co/FDrfX4S/watch-straps-brixham-special-buckle-classic-leather-watch-strap-tan-36216964645027-1200x.jpg",
         "description": "Classic leather strap watch with a timeless design.",
         "price": 179.99,
         "category": "Watches",
@@ -121,7 +121,7 @@
     },
     {
         "name": "Studded Leather Belt",
-        "image": "https://example.com/images/studded-leather-belt.jpg",
+        "image": "https://i.ibb.co/q9xb49J/19042024-MG-9328-1d64492f-a81e-4f25-94d2-724eab480a4f-530x-2x.jpg",
         "description": "Stylish leather belt with studded detailing.",
         "price": 39.99,
         "category": "Belts",
@@ -131,7 +131,7 @@
     },
     {
         "name": "Crossbody Messenger Bag",
-        "image": "https://example.com/images/crossbody-messenger-bag.jpg",
+        "image": "https://i.ibb.co/gPGLnKL/s-l400.jpg",
         "description": "Convenient crossbody messenger bag with adjustable straps.",
         "price": 49.99,
         "category": "Bags",
@@ -141,7 +141,7 @@
     },
     {
         "name": "Pearl Necklace",
-        "image": "https://example.com/images/pearl-necklace.jpg",
+        "image": "https://i.ibb.co/LN1bHZ4/007-00709-Allure-Necklace-Strand-SS-WG-4.jpg",
         "description": "Elegant pearl necklace with a sophisticated look.",
         "price": 159.99,
         "category": "Jewelry",
@@ -151,7 +151,7 @@
     },
     {
         "name": "Casual Watch",
-        "image": "https://example.com/images/casual-watch.jpg",
+        "image": "https://i.ibb.co/mvBWMGq/s-l1200.webp",
         "description": "Casual wristwatch with a comfortable silicone strap.",
         "price": 89.99,
         "category": "Watches",
@@ -161,7 +161,7 @@
     },
     {
         "name": "Aviator Watch",
-        "image": "https://example.com/images/aviator-watch.jpg",
+        "image": "https://i.ibb.co/ZxVZ2Sq/zenith-pilot-type-20-extra-special-watch-jpg-1536x0-q75-crop-scale-subsampling-2-upscale-false.jpg",
         "description": "Aviator-style watch with a durable metal strap.",
         "price": 299.99,
         "category": "Watches",
@@ -171,7 +171,7 @@
     },
     {
         "name": "Sleek Leather Wallet",
-        "image": "https://example.com/images/sleek-leather-wallet.jpg",
+        "image": "https://i.ibb.co/jh7cLjg/fullsizeoutput-2b08-600x.jpg",
         "description": "Slim and sleek leather wallet with RFID protection.",
         "price": 59.99,
         "category": "Wallets",
@@ -181,7 +181,7 @@
     },
     {
         "name": "Stylish Fedora Hat",
-        "image": "https://example.com/images/stylish-fedora-hat.jpg",
+        "image": "https://i.ibb.co/8YCNBjv/ef18cc06c4b46d67df54782cffc43c76-jpg-750x400-jpg.webp",
         "description": "Classic fedora hat with a modern twist.",
         "price": 45.99,
         "category": "Hats",
@@ -191,7 +191,7 @@
     },
     {
         "name": "Designer Scarf",
-        "image": "https://example.com/images/designer-scarf.jpg",
+        "image": "https://i.ibb.co/QK6TVmL/Sf60b3e92313c4b278415079426ca4d7f3-jpg-640x640-Q90-jpg.webp",
         "description": "Soft and luxurious scarf made from premium materials.",
         "price": 75.99,
         "category": "Scarves",
@@ -201,7 +201,7 @@
     },
     {
         "name": "Leather Backpack",
-        "image": "https://example.com/images/leather-backpack.jpg",
+        "image": "https://i.ibb.co/WGMPRwb/best-leather-backpacks.jpg",
         "description": "Spacious leather backpack perfect for everyday use.",
         "price": 199.99,
         "category": "Bags",
@@ -211,7 +211,7 @@
     },
     {
         "name": "Silver Cufflinks",
-        "image": "https://example.com/images/silver-cufflinks.jpg",
+        "image": "https://i.ibb.co/XD3MvRY/2024-1934-cufflinks-threepence-scaled.jpg",
         "description": "Elegant silver cufflinks with a sleek finish.",
         "price": 69.99,
         "category": "Jewelry",
@@ -221,7 +221,7 @@
     },
     {
         "name": "Classic Sunglasses",
-        "image": "https://example.com/images/classic-sunglasses.jpg",
+        "image": "https://i.ibb.co/G0ms4hV/aboutvintageglasses.jpg",
         "description": "Classic sunglasses with polarized lenses.",
         "price": 49.99,
         "category": "Sunglasses",
@@ -231,7 +231,7 @@
     },
     {
         "name": "Smartphone Case",
-        "image": "https://example.com/images/smartphone-case.jpg",
+        "image": "https://i.ibb.co/RSJpCYz/487977-27903-XL.jpg",
         "description": "Durable smartphone case with shock-absorbing corners.",
         "price": 29.99,
         "category": "Accessories",
@@ -241,7 +241,7 @@
     },
     {
         "name": "Gold-Plated Bracelet",
-        "image": "https://example.com/images/gold-plated-bracelet.jpg",
+        "image": "https://i.ibb.co/98pXHc9/r-BVap2-D1r86-Ae-TKYAAE62k-SDHXo179.webp",
         "description": "Stylish gold-plated bracelet with a modern design.",
         "price": 89.99,
         "category": "Jewelry",
@@ -251,7 +251,7 @@
     },
     {
         "name": "Sports Sunglasses",
-        "image": "https://example.com/images/sports-sunglasses.jpg",
+        "image": "https://i.ibb.co/SQNqMqj/51m9vsxc-XVL-AC-SL1000.jpg",
         "description": "Lightweight sports sunglasses with UV protection.",
         "price": 69.99,
         "category": "Sunglasses",
@@ -261,7 +261,7 @@
     },
     {
         "name": "Travel Duffel Bag",
-        "image": "https://example.com/images/travel-duffel-bag.jpg",
+        "image": "https://i.ibb.co/bX9wzzS/TSV-duffel-bags-group-shot-nick-kova-00009copy-28d4233cfa33425898d6ab39105fe518.jpg",
         "description": "Spacious duffel bag ideal for travel and weekend trips.",
         "price": 109.99,
         "category": "Bags",
@@ -271,7 +271,7 @@
     },
     {
         "name": "Wooden Sunglasses",
-        "image": "https://example.com/images/wooden-sunglasses.jpg",
+        "image": "https://i.ibb.co/CwgK8JW/Wooden-Sunglasses-Kiwi-Kool-51ca7f02-826d-4007-ba57-567b8adf9c4a.jpg",
         "description": "Eco-friendly wooden sunglasses with polarized lenses.",
         "price": 79.99,
         "category": "Sunglasses",
@@ -281,17 +281,17 @@
     },
     {
         "name": "Bluetooth Headphones",
-        "image": "https://example.com/images/bluetooth-headphones.jpg",
+        "image": "https://i.ibb.co/kyjNLvq/6-1200x-76c0a634-5efe-4014-8883-4116ee246821-1200x.jpg",
         "description": "Wireless Bluetooth headphones with noise cancellation.",
         "price": 129.99,
         "category": "Accessories",
-        "brand": "SoundMax",
+        "brand": "SoundCore",
         "ratings": 4.7,
         "createdAt": "2024-08-13T18:20:00Z"
     },
     {
         "name": "Luxury Pen Set",
-        "image": "https://example.com/images/luxury-pen-set.jpg",
+        "image": "https://i.ibb.co/NmmWFhK/Scriveiner-Silver-Chrome-Fountain-Pen-Stunning-Luxury-24-K-Gold-Finish-Schmidt-18-K-Gilded-Nib-Mediu.jpg",
         "description": "Elegant luxury pen set in a stylish gift box.",
         "price": 59.99,
         "category": "Accessories",
@@ -301,7 +301,7 @@
     },
     {
         "name": "Running Shoes",
-        "image": "https://example.com/images/running-shoes.jpg",
+        "image": "https://i.ibb.co/80MKgfL/reebok-floatride-run-fast-11765-preview-maxwidth-3000-maxheight-3000-ppi-300-quality-90-65ccfbfe46d1.jpg",
         "description": "Lightweight and comfortable running shoes.",
         "price": 99.99,
         "category": "Shoes",
@@ -311,7 +311,7 @@
     },
     {
         "name": "Leather Card Holder",
-        "image": "https://example.com/images/leather-card-holder.jpg",
+        "image": "https://i.ibb.co/mbFsQRX/von-baer-minimalist-best-quality-mens-slim-leather-card-holder-brown-in-luxury-car.jpg",
         "description": "Compact leather card holder with multiple slots.",
         "price": 34.99,
         "category": "Wallets",
@@ -321,7 +321,7 @@
     },
     {
         "name": "Classic Fedora Hat",
-        "image": "https://example.com/images/classic-fedora-hat.jpg",
+        "image": "https://i.ibb.co/Mfxp4T2/timeless-classic-sample-design-wool-felt-rancher-hat-221120-600x600-crop-top.jpg",
         "description": "Timeless fedora hat with a comfortable fit.",
         "price": 49.99,
         "category": "Hats",
@@ -331,7 +331,7 @@
     },
     {
         "name": "Stainless Steel Watch",
-        "image": "https://example.com/images/stainless-steel-watch.jpg",
+        "image": "https://i.ibb.co/2q68FHt/H41bb41cf4692415d83b9714e7d007109-U.jpg",
         "description": "Durable stainless steel watch with water resistance.",
         "price": 149.99,
         "category": "Watches",
@@ -341,7 +341,7 @@
     },
     {
         "name": "Leather Messenger Bag",
-        "image": "https://example.com/images/leather-messenger-bag.jpg",
+        "image": "https://i.ibb.co/x6dShjM/mess-500x500.jpg",
         "description": "Stylish leather messenger bag with multiple compartments.",
         "price": 139.99,
         "category": "Bags",
@@ -351,7 +351,7 @@
     },
     {
         "name": "Polarized Aviator Sunglasses",
-        "image": "https://example.com/images/polarized-aviator-sunglasses.jpg",
+        "image": "https://i.ibb.co/6B3pPQ2/71fw-EDLx-DLL-AC-SL1500.jpg",
         "description": "Polarized aviator sunglasses with a classic look.",
         "price": 99.99,
         "category": "Sunglasses",
@@ -361,12 +361,62 @@
     },
     {
         "name": "Gold Watch",
-        "image": "https://example.com/images/gold-watch.jpg",
+        "image": "https://i.ibb.co/PgB433n/Rolex-Daytona-2.jpg",
         "description": "Luxurious gold watch with a diamond-studded bezel.",
         "price": 499.99,
         "category": "Watches",
-        "brand": "GoldenHour",
+        "brand": "Rolex",
         "ratings": 4.9,
         "createdAt": "2024-08-21T18:50:00Z"
+    },
+    {
+        "name": "Leather Keychain",
+        "image": "https://i.ibb.co/Nxx0v0w/leather-keychains-318685.jpg",
+        "description": "Handcrafted leather keychain with a durable design.",
+        "price": 19.99,
+        "category": "Accessories",
+        "brand": "UrbanCarry",
+        "ratings": 4.2,
+        "createdAt": "2024-08-22T20:10:00Z"
+    },
+    {
+        "name": "Leather Loafers",
+        "image": "https://i.ibb.co/h2c1spD/0519802-mens-leather-loafer.webp",
+        "description": "Classic leather loafers with a comfortable fit.",
+        "price": 79.99,
+        "category": "Shoes",
+        "brand": "Classic Leather Co.",
+        "ratings": 4.5,
+        "createdAt": "2024-08-23T09:30:00Z"
+    },
+    {
+        "name": "Leather Passport Holder",
+        "image": "https://i.ibb.co/ZzCCPxW/travel-goods-686124.jpg",
+        "description": "Stylish leather passport holder with RFID protection.",
+        "price": 29.99,
+        "category": "Accessories",
+        "brand": "UrbanCarry",
+        "ratings": 4.3,
+        "createdAt": "2024-08-24T11:00:00Z"
+    },
+    {
+        "name": "Leather Laptop Bag",
+        "image": "https://i.ibb.co/s5DWHTQ/groundcover-leather-londoner-laptop-bag-bags-handbags-groundcover-646176-1024x.jpg",
+        "description": "Sleek leather laptop bag with padded compartments.",
+        "price": 89.99,
+        "category": "Bags",
+        "brand": "UrbanCarry",
+        "ratings": 4.4,
+        "createdAt": "2024-08-25T12:30:00Z"
+    },
+    {
+        "name": "Leather Watch Box",
+        "image": "https://i.ibb.co/4R5qVMj/81q-GVESQx-WL-AC-UF350-350-QL80.jpg",
+        "description": "Luxurious leather watch box with a velvet interior.",
+        "price": 49.99,
+        "category": "Accessories",
+        "brand": "UrbanCarry",
+        "ratings": 4.5,
+        "createdAt": "2024-08-26T14:00:00Z"
     }
 ]

@@ -23,7 +23,7 @@ const Footer = () => {
 
     return (
         <footer
-            className=" w-full mt-10 bg-zinc-200 p-4 absolute bottom-0"
+            className=" w-full mt-10 bg-zinc-200 p-4 bottom-0"
         // style={{ backgroundImage: `url(${coolBackground})` }}
         >
             <div className=" container mx-auto px-8 bg-zinc-200 p-4">
