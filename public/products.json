@@ -1,0 +1,372 @@
+[
+    {
+        "name": "Leather Wallet",
+        "image": "https://example.com/images/leather-wallet.jpg",
+        "description": "Premium quality leather wallet with multiple card slots.",
+        "price": 25.99,
+        "category": "Wallets",
+        "brand": "Classic Leather Co.",
+        "ratings": 4.5,
+        "createdAt": "2024-07-01T10:00:00Z"
+    },
+    {
+        "name": "Aviator Sunglasses",
+        "image": "https://example.com/images/aviator-sunglasses.jpg",
+        "description": "Stylish aviator sunglasses with UV protection.",
+        "price": 79.99,
+        "category": "Sunglasses",
+        "brand": "SunGlare",
+        "ratings": 4.8,
+        "createdAt": "2024-07-03T14:30:00Z"
+    },
+    {
+        "name": "Gold-Plated Necklace",
+        "image": "https://example.com/images/gold-necklace.jpg",
+        "description": "Elegant gold-plated necklace with intricate design.",
+        "price": 129.99,
+        "category": "Jewelry",
+        "brand": "Elegance Jewelers",
+        "ratings": 4.7,
+        "createdAt": "2024-07-05T12:15:00Z"
+    },
+    {
+        "name": "Smart Watch",
+        "image": "https://example.com/images/smart-watch.jpg",
+        "description": "Feature-rich smart watch with heart rate monitor.",
+        "price": 199.99,
+        "category": "Watches",
+        "brand": "TechTime",
+        "ratings": 4.6,
+        "createdAt": "2024-07-07T09:45:00Z"
+    },
+    {
+        "name": "Leather Belt",
+        "image": "https://example.com/images/leather-belt.jpg",
+        "description": "Durable leather belt with a sleek buckle design.",
+        "price": 34.99,
+        "category": "Belts",
+        "brand": "Buckle Up",
+        "ratings": 4.4,
+        "createdAt": "2024-07-09T11:20:00Z"
+    },
+    {
+        "name": "Canvas Tote Bag",
+        "image": "https://example.com/images/canvas-tote-bag.jpg",
+        "description": "Spacious canvas tote bag, perfect for everyday use.",
+        "price": 29.99,
+        "category": "Bags",
+        "brand": "EcoCarry",
+        "ratings": 4.3,
+        "createdAt": "2024-07-11T13:05:00Z"
+    },
+    {
+        "name": "Silver Bracelet",
+        "image": "https://example.com/images/silver-bracelet.jpg",
+        "description": "Delicate silver bracelet with a minimalist design.",
+        "price": 59.99,
+        "category": "Jewelry",
+        "brand": "ShineBright",
+        "ratings": 4.7,
+        "createdAt": "2024-07-13T08:30:00Z"
+    },
+    {
+        "name": "Men's Chronograph Watch",
+        "image": "https://example.com/images/chronograph-watch.jpg",
+        "description": "High-precision chronograph watch with a leather strap.",
+        "price": 249.99,
+        "category": "Watches",
+        "brand": "TimeMaster",
+        "ratings": 4.9,
+        "createdAt": "2024-07-15T15:45:00Z"
+    },
+    {
+        "name": "Polarized Sunglasses",
+        "image": "https://example.com/images/polarized-sunglasses.jpg",
+        "description": "Polarized sunglasses offering superior clarity and protection.",
+        "price": 89.99,
+        "category": "Sunglasses",
+        "brand": "ClearView",
+        "ratings": 4.5,
+        "createdAt": "2024-07-17T17:10:00Z"
+    },
+    {
+        "name": "Luxury Handbag",
+        "image": "https://example.com/images/luxury-handbag.jpg",
+        "description": "Designer luxury handbag crafted from high-quality materials.",
+        "price": 349.99,
+        "category": "Bags",
+        "brand": "Chic Bags",
+        "ratings": 4.8,
+        "createdAt": "2024-07-19T19:30:00Z"
+    },
+    {
+        "name": "Gold Earrings",
+        "image": "https://example.com/images/gold-earrings.jpg",
+        "description": "Stunning gold earrings with a sparkling gemstone.",
+        "price": 99.99,
+        "category": "Jewelry",
+        "brand": "Elegance Jewelers",
+        "ratings": 4.9,
+        "createdAt": "2024-07-21T20:45:00Z"
+    },
+    {
+        "name": "Classic Leather Watch",
+        "image": "https://example.com/images/classic-leather-watch.jpg",
+        "description": "Classic leather strap watch with a timeless design.",
+        "price": 179.99,
+        "category": "Watches",
+        "brand": "Vintage Timepieces",
+        "ratings": 4.6,
+        "createdAt": "2024-07-23T22:00:00Z"
+    },
+    {
+        "name": "Studded Leather Belt",
+        "image": "https://example.com/images/studded-leather-belt.jpg",
+        "description": "Stylish leather belt with studded detailing.",
+        "price": 39.99,
+        "category": "Belts",
+        "brand": "Buckle Up",
+        "ratings": 4.2,
+        "createdAt": "2024-07-25T23:15:00Z"
+    },
+    {
+        "name": "Crossbody Messenger Bag",
+        "image": "https://example.com/images/crossbody-messenger-bag.jpg",
+        "description": "Convenient crossbody messenger bag with adjustable straps.",
+        "price": 49.99,
+        "category": "Bags",
+        "brand": "UrbanCarry",
+        "ratings": 4.4,
+        "createdAt": "2024-07-27T12:30:00Z"
+    },
+    {
+        "name": "Pearl Necklace",
+        "image": "https://example.com/images/pearl-necklace.jpg",
+        "description": "Elegant pearl necklace with a sophisticated look.",
+        "price": 159.99,
+        "category": "Jewelry",
+        "brand": "ShineBright",
+        "ratings": 4.8,
+        "createdAt": "2024-07-29T14:50:00Z"
+    },
+    {
+        "name": "Casual Watch",
+        "image": "https://example.com/images/casual-watch.jpg",
+        "description": "Casual wristwatch with a comfortable silicone strap.",
+        "price": 89.99,
+        "category": "Watches",
+        "brand": "Everyday Time",
+        "ratings": 4.3,
+        "createdAt": "2024-07-31T16:20:00Z"
+    },
+    {
+        "name": "Aviator Watch",
+        "image": "https://example.com/images/aviator-watch.jpg",
+        "description": "Aviator-style watch with a durable metal strap.",
+        "price": 299.99,
+        "category": "Watches",
+        "brand": "Pilot Precision",
+        "ratings": 4.7,
+        "createdAt": "2024-08-01T09:10:00Z"
+    },
+    {
+        "name": "Sleek Leather Wallet",
+        "image": "https://example.com/images/sleek-leather-wallet.jpg",
+        "description": "Slim and sleek leather wallet with RFID protection.",
+        "price": 59.99,
+        "category": "Wallets",
+        "brand": "UrbanCarry",
+        "ratings": 4.6,
+        "createdAt": "2024-08-02T10:30:00Z"
+    },
+    {
+        "name": "Stylish Fedora Hat",
+        "image": "https://example.com/images/stylish-fedora-hat.jpg",
+        "description": "Classic fedora hat with a modern twist.",
+        "price": 45.99,
+        "category": "Hats",
+        "brand": "HatMasters",
+        "ratings": 4.4,
+        "createdAt": "2024-08-03T12:40:00Z"
+    },
+    {
+        "name": "Designer Scarf",
+        "image": "https://example.com/images/designer-scarf.jpg",
+        "description": "Soft and luxurious scarf made from premium materials.",
+        "price": 75.99,
+        "category": "Scarves",
+        "brand": "WrapItUp",
+        "ratings": 4.5,
+        "createdAt": "2024-08-04T14:20:00Z"
+    },
+    {
+        "name": "Leather Backpack",
+        "image": "https://example.com/images/leather-backpack.jpg",
+        "description": "Spacious leather backpack perfect for everyday use.",
+        "price": 199.99,
+        "category": "Bags",
+        "brand": "EcoCarry",
+        "ratings": 4.7,
+        "createdAt": "2024-08-05T16:00:00Z"
+    },
+    {
+        "name": "Silver Cufflinks",
+        "image": "https://example.com/images/silver-cufflinks.jpg",
+        "description": "Elegant silver cufflinks with a sleek finish.",
+        "price": 69.99,
+        "category": "Jewelry",
+        "brand": "Elegance Jewelers",
+        "ratings": 4.6,
+        "createdAt": "2024-08-06T18:10:00Z"
+    },
+    {
+        "name": "Classic Sunglasses",
+        "image": "https://example.com/images/classic-sunglasses.jpg",
+        "description": "Classic sunglasses with polarized lenses.",
+        "price": 49.99,
+        "category": "Sunglasses",
+        "brand": "ClearView",
+        "ratings": 4.5,
+        "createdAt": "2024-08-07T20:00:00Z"
+    },
+    {
+        "name": "Smartphone Case",
+        "image": "https://example.com/images/smartphone-case.jpg",
+        "description": "Durable smartphone case with shock-absorbing corners.",
+        "price": 29.99,
+        "category": "Accessories",
+        "brand": "TechGuard",
+        "ratings": 4.3,
+        "createdAt": "2024-08-08T09:50:00Z"
+    },
+    {
+        "name": "Gold-Plated Bracelet",
+        "image": "https://example.com/images/gold-plated-bracelet.jpg",
+        "description": "Stylish gold-plated bracelet with a modern design.",
+        "price": 89.99,
+        "category": "Jewelry",
+        "brand": "ShineBright",
+        "ratings": 4.8,
+        "createdAt": "2024-08-09T11:30:00Z"
+    },
+    {
+        "name": "Sports Sunglasses",
+        "image": "https://example.com/images/sports-sunglasses.jpg",
+        "description": "Lightweight sports sunglasses with UV protection.",
+        "price": 69.99,
+        "category": "Sunglasses",
+        "brand": "SportVision",
+        "ratings": 4.7,
+        "createdAt": "2024-08-10T13:10:00Z"
+    },
+    {
+        "name": "Travel Duffel Bag",
+        "image": "https://example.com/images/travel-duffel-bag.jpg",
+        "description": "Spacious duffel bag ideal for travel and weekend trips.",
+        "price": 109.99,
+        "category": "Bags",
+        "brand": "JetSetters",
+        "ratings": 4.8,
+        "createdAt": "2024-08-11T14:50:00Z"
+    },
+    {
+        "name": "Wooden Sunglasses",
+        "image": "https://example.com/images/wooden-sunglasses.jpg",
+        "description": "Eco-friendly wooden sunglasses with polarized lenses.",
+        "price": 79.99,
+        "category": "Sunglasses",
+        "brand": "EcoVision",
+        "ratings": 4.6,
+        "createdAt": "2024-08-12T16:30:00Z"
+    },
+    {
+        "name": "Bluetooth Headphones",
+        "image": "https://example.com/images/bluetooth-headphones.jpg",
+        "description": "Wireless Bluetooth headphones with noise cancellation.",
+        "price": 129.99,
+        "category": "Accessories",
+        "brand": "SoundMax",
+        "ratings": 4.7,
+        "createdAt": "2024-08-13T18:20:00Z"
+    },
+    {
+        "name": "Luxury Pen Set",
+        "image": "https://example.com/images/luxury-pen-set.jpg",
+        "description": "Elegant luxury pen set in a stylish gift box.",
+        "price": 59.99,
+        "category": "Accessories",
+        "brand": "InkMasters",
+        "ratings": 4.5,
+        "createdAt": "2024-08-14T20:00:00Z"
+    },
+    {
+        "name": "Running Shoes",
+        "image": "https://example.com/images/running-shoes.jpg",
+        "description": "Lightweight and comfortable running shoes.",
+        "price": 99.99,
+        "category": "Shoes",
+        "brand": "SpeedRunner",
+        "ratings": 4.8,
+        "createdAt": "2024-08-15T09:30:00Z"
+    },
+    {
+        "name": "Leather Card Holder",
+        "image": "https://example.com/images/leather-card-holder.jpg",
+        "description": "Compact leather card holder with multiple slots.",
+        "price": 34.99,
+        "category": "Wallets",
+        "brand": "UrbanCarry",
+        "ratings": 4.3,
+        "createdAt": "2024-08-16T11:10:00Z"
+    },
+    {
+        "name": "Classic Fedora Hat",
+        "image": "https://example.com/images/classic-fedora-hat.jpg",
+        "description": "Timeless fedora hat with a comfortable fit.",
+        "price": 49.99,
+        "category": "Hats",
+        "brand": "HatMasters",
+        "ratings": 4.4,
+        "createdAt": "2024-08-17T12:45:00Z"
+    },
+    {
+        "name": "Stainless Steel Watch",
+        "image": "https://example.com/images/stainless-steel-watch.jpg",
+        "description": "Durable stainless steel watch with water resistance.",
+        "price": 149.99,
+        "category": "Watches",
+        "brand": "TimeGuard",
+        "ratings": 4.6,
+        "createdAt": "2024-08-18T14:20:00Z"
+    },
+    {
+        "name": "Leather Messenger Bag",
+        "image": "https://example.com/images/leather-messenger-bag.jpg",
+        "description": "Stylish leather messenger bag with multiple compartments.",
+        "price": 139.99,
+        "category": "Bags",
+        "brand": "UrbanCarry",
+        "ratings": 4.7,
+        "createdAt": "2024-08-19T16:00:00Z"
+    },
+    {
+        "name": "Polarized Aviator Sunglasses",
+        "image": "https://example.com/images/polarized-aviator-sunglasses.jpg",
+        "description": "Polarized aviator sunglasses with a classic look.",
+        "price": 99.99,
+        "category": "Sunglasses",
+        "brand": "ClearView",
+        "ratings": 4.8,
+        "createdAt": "2024-08-20T17:30:00Z"
+    },
+    {
+        "name": "Gold Watch",
+        "image": "https://example.com/images/gold-watch.jpg",
+        "description": "Luxurious gold watch with a diamond-studded bezel.",
+        "price": 499.99,
+        "category": "Watches",
+        "brand": "GoldenHour",
+        "ratings": 4.9,
+        "createdAt": "2024-08-21T18:50:00Z"
+    }
+]

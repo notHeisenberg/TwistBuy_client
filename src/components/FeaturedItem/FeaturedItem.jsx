@@ -3,7 +3,7 @@
 const FeaturedItem = () => {
     return (
         <div>
-            
+
         </div>
     );
 };
