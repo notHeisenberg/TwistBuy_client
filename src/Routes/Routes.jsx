@@ -6,6 +6,7 @@ import SignUp from "../Pages/SignUp/SignUp";
 import Login from "../Pages/Login/Login";
 import ErrorPage from "../Pages/Error/ErrorPage";
 import Dashboard from "../components/Dashboard/Dashboard";
+import Cart from "../components/Cart/Cart";
 
 
 
@@ -42,7 +43,7 @@ const router = createBrowserRouter([
                     },
                     {
                         path: 'cart',
-                        element: <></>
+                        element:<Cart></Cart>
                     },
                 ]
             },

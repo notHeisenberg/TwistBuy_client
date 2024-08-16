@@ -8,7 +8,8 @@ const Home = () => {
     return (
         <>
             <StickyNavbar></StickyNavbar>
-            <FeaturedItem></FeaturedItem>
+            {/* Todo FeaturedItem */}
+            <FeaturedItem></FeaturedItem> 
             <ContentArea></ContentArea>
             <Footer></Footer>
         </>
