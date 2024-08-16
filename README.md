@@ -36,14 +36,14 @@ Build Tailwind CSS
 
 Ensure you have Tailwind CSS installed and configured. If not, follow the Tailwind CSS Installation Guide.
 
-   ```bash npm run dev
+   ```bash npm run dev`
 The application will run on http://localhost:3000.
 
 ## Additional Notes
 Ensure that the backend server is running and accessible at the URL specified in the .env file.
 
 For a production build, use the command:
-```bash npm run build
+```bash npm run build`
 This will create a build directory with the production-ready files.
 
 For deployment, you can use platforms such as Netlify or Vercel.
