@@ -30,7 +30,7 @@ Before you start, make sure you have the following installed:
    npm install```
 2. **Create Environment Variables**
    ```bash REACT_APP_API_URL=http://localhost:5000
-   Replace http://localhost:5000 with the URL of your backend server if different.
+   Replace http://localhost:5000 with the URL of your backend serverif different`
 
 Build Tailwind CSS
 
