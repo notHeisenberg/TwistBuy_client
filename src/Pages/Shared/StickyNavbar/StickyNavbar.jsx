@@ -3,6 +3,9 @@ import { Typography, Button } from "@material-tailwind/react";
 import { Link, NavLink } from "react-router-dom";
 import FancyText from '@carefully-coded/react-text-gradient';
 import { AuthContext } from "../../../components/Provider/AuthProvider";
+import { IoIosLogOut } from "react-icons/io";
+import { FaCartShopping } from "react-icons/fa6";
+import { IoPerson } from "react-icons/io5";
 
 export function StickyNavbar() {
 
@@ -32,14 +35,15 @@ export function StickyNavbar() {
             className="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-60 p-4 shadow">
             <li >
                 <Link to={'/dashboard/profile'} className="flex justify-between">
+                <IoPerson className="text-green-500"></IoPerson>
                     Profile
                     <span className="badge badge-sm badge-info text-wrap">{user?.displayName}</span>
                 </Link>
             </li>
             <li>
-                <Link to={'/dashboard/cart'}>Cart</Link>
+                <Link to={'/dashboard/cart'}><FaCartShopping className="text-amber-500"></FaCartShopping> Cart</Link>
             </li>
-            <li><Button onClick={() => logout()}>Logout</Button></li>
+            <li><button className=" btn btn-ghost text-xl hover:text-rose-500" onClick={() => logout()}>Logout <IoIosLogOut></IoIosLogOut> </button></li>
         </ul>
     );
 
@@ -70,7 +74,7 @@ export function StickyNavbar() {
                         {userList}
                     </div>
                 ) : (
-                    <div className="flex gap-2 justify-between">
+                    <div className="flex flex-col md:flex-row gap-2 justify-between">
                         <Link to={'/login'}>
                             <Button variant="outlined" size="sm" className="btn btn-outline">
                                 Login

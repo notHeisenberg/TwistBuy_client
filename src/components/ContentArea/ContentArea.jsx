@@ -5,6 +5,7 @@ import FilterPanel from './FilterPanel';
 import axiosPublic from '../../Utilities/useAxiosPublic';
 import Pagination from './Pagination';
 
+
 const ContentArea = () => {
     const [products, setProducts] = useState([]);
     const [filteredProducts, setFilteredProducts] = useState([]);
@@ -25,7 +26,6 @@ const ContentArea = () => {
         const savedCart = JSON.parse(localStorage.getItem('cart')) || [];
         setCart(savedCart);
     }, []);
-
 
     useEffect(() => {
         const fetchProducts = async () => {
@@ -153,7 +153,8 @@ const ContentArea = () => {
                         <p>Error fetching products: {error.message}</p>
                     ) : (
                         <div>
-                            <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(200px, 1fr))', gap: '20px' }}>
+                            <div 
+                             style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(200px, 1fr))', gap: '20px' }}>
                                 {filteredProducts.map((product) => (
                                     <ProductCard
                                         key={product._id}

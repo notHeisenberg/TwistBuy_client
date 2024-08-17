@@ -2,6 +2,9 @@
 import { useContext, useState } from 'react';
 import { NavLink, Outlet } from 'react-router-dom';
 import { AuthContext } from '../Provider/AuthProvider';
+import { IoPerson } from 'react-icons/io5';
+import { FaCartShopping } from 'react-icons/fa6';
+import { FaRegPlusSquare } from 'react-icons/fa';
 
 const Dashboard = () => {
     const [isOpen, setIsOpen] = useState(false);
@@ -15,16 +18,19 @@ const Dashboard = () => {
             <ul className="menu bg-inherit min-h-full w-80 h-screen p-4">
                 <li>
                     <NavLink to={`/dashboard/profile`} className={({ isActive }) => isActive ? active : inactive}>
+                    <IoPerson className="text-green-500"></IoPerson>
                         Profile
                     </NavLink>
                 </li>
                 <li>
                     <NavLink to={`/dashboard/add-product`} className={({ isActive }) => isActive ? active : inactive}>
+                    <FaRegPlusSquare className='text-teal-300'></FaRegPlusSquare>
                         Add Product
                     </NavLink>
                 </li>
                 <li>
                     <NavLink to={`/dashboard/cart`} className={({ isActive }) => isActive ? active : inactive}>
+                    <FaCartShopping className="text-amber-500"></FaCartShopping>
                         My Cart
                     </NavLink>
                 </li>

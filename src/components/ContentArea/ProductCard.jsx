@@ -1,9 +1,19 @@
 import PropTypes from 'prop-types';
 import { FaCartFlatbed, FaCartPlus } from 'react-icons/fa6';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+import { useEffect } from 'react';
 
 const ProductCard = ({ product, onAddToCart, isInCart }) => {
+    useEffect(() => {
+        AOS.init({
+            duration: 3000,
+            once: true,
+            
+        });
+    }, []);
     return (
-        <div className="border rounded-lg shadow-lg p-4 flex flex-col">
+        <div data-aos="zoom-out-up" className="border rounded-lg shadow-lg p-4 flex flex-col">
             <img src={product.image} alt={product.name} className="w-full h-40 object-cover rounded-lg mb-4" />
             <h2 className="text-xl font-semibold mb-2">{product.name}</h2>
             <p className="text-gray-600 mb-2">{product.description}</p>
